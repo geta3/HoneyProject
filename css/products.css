@@ -1,0 +1,157 @@
+.container-small 
+{
+  max-width: 1286px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+  
+.product 
+{
+  margin-bottom: 135px;
+}
+  
+.product__wrapper 
+{
+  font-family: "Kodchasan", sans-serif;
+}
+  
+.product__content 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.product__title 
+{
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 160%;
+  padding-bottom: 50px;
+}
+  
+.product__link 
+{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #e58211;
+}
+  
+.cards 
+{
+  display: flex;
+  gap: 30px;
+}
+  
+.item 
+{
+  background-color: #e5821118;
+  min-height: 305px;
+  width: 558px;
+  color: #000000;
+}
+  
+.item__title 
+{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  padding-bottom: 20px;
+}
+.item__text 
+{
+  padding-bottom: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+}
+  
+.item__btn 
+{
+  font-family: "Kodchasan", sans-serif;
+  display: inline-block;
+  width: 140px;
+  height: 50px;
+  border: 1.5px solid #e58211;
+  outline: none;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  color: #e58211;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+  
+.item__btn:hover 
+{
+  background-color: #e58211;
+  border: 1.5px solid transparent;
+  color: #000000;
+}
+  
+.item__content 
+{
+  max-width: 330px;
+  min-height: 216px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  margin-top: 45px;
+  padding-bottom: 20px;
+}
+  
+.cards__item--first 
+{
+  background-image: url(../img/miel_eucalyptus_forets_andalousie.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: right;
+}
+  
+.cards__item--second 
+{
+  background-image: url(../img/basswood-honey-removebg.png);
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: 90% 50%;
+}
+@media (max-width: 1024px) {
+  .product__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 582px) {
+  .item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 497px) {
+  .item {
+    width: 100%;
+  }
+  .item__content {
+    display: none;
+  }
+  .cards__item--first {
+    background-position: center;
+    background-size: contain;
+  }
+  .cards__item--second {
+    background-size: 40%;
+    background-position: center;
+  }
+
+  .product__content {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+}

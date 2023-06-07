@@ -1,0 +1,72 @@
+.first-product {
+    background-image: url('../img/1stprod.jpg');
+    background-repeat: no-repeat;
+    min-height: 800px;
+    padding-left: 101px;
+    margin-bottom: 100px;
+}
+.first-product__wrapper{
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 820px
+}
+.first-product__content{
+    padding-right: 92px;
+}
+.first-product__title{
+    
+    line-height: 145%;
+    font-size: 45px;
+    width: 548px;
+    height: 130px;
+    color: black;
+}
+.first-product__text{
+ width: 516px;
+height: 105px;
+opacity: 0.7;
+}
+.first__btn {
+    font-family: "Kodchasan", sans-serif;
+    display: inline-block;
+    width: 184px;
+    height: 60px;
+    outline: none;
+    outline-width: 0px;
+    outline-color: none;
+    background-color: #E58311;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.first__btn:hover {
+    background-color:transparent;
+    border: 1.5px solid #E58311;
+    color:#e58211;
+}
+@media(max-width:1400px){
+    .first-product{
+        background-size: 50%;
+    }
+}
+@media(max-width:1200px){
+    .first-product{
+        align-items: end;
+        background-position: start;
+        background-size: 35%;
+    }
+    .first-product__content{
+        padding-bottom: 300px;
+        font-size: 15px;
+    }
+}
+@media(max-width:1000px){
+    .first-product{
+        display: none;
+    }
+}

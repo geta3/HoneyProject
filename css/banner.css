@@ -6,7 +6,7 @@
 {
   width: 100%;
   min-height: 865px;
-  background-image: url(../img/banner.png);
+  background-image: url(../img/banner.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -21,7 +21,7 @@
 .hero::after 
 {
   content: '';
-  background-image: url(../img/_x32_.png);
+  background-image: url(../img/_x32_.webp);
   position: absolute;
   width: 205px;
   height: 321px;
@@ -73,7 +73,7 @@
 {
   content: "";
   position: absolute;
-  background-image: url(../img/bee.png);
+  background-image: url(../img/bee.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

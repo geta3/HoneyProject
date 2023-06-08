@@ -107,7 +107,7 @@
   
 .cards__item--first 
 {
-  background-image: url(../img/miel_eucalyptus_forets_andalousie.png);
+  background-image: url(../img/miel_eucalyptus_forets_andalousie.webp);
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: right;
@@ -115,7 +115,7 @@
   
 .cards__item--second 
 {
-  background-image: url(../img/basswood-honey-removebg.png);
+  background-image: url(../img/basswood-honey-removebg.webp);
   background-repeat: no-repeat;
   background-size: 20%;
   background-position: 90% 50%;
